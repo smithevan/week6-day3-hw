@@ -37,16 +37,12 @@ Traveller.prototype.calculateTotalDistanceTravelled = function () {
   return result;
 };
 
-// Cinema.prototype.totalRunningTime = function () {
-//   let result = this.films.reduce((runningResult, film) => {
-//     return runningResult + film.length
-//   }, 0);
+// Traveller.prototype.getUniqueModesOfTransport = function () {
+//   const result = this.journeys.filter((journey) => {
+//     return journey.transport;
+//   });
 //   return result;
 // };
-
-Traveller.prototype.getUniqueModesOfTransport = function () {
-
-};
 
 
 module.exports = Traveller;

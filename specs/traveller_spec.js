@@ -69,9 +69,9 @@ describe('Traveller', function() {
     assert.deepStrictEqual(traveller.calculateTotalDistanceTravelled(), 11710);
   });
 
-  xit('should be able to get a unique list of the modes of transport', function() {
-    const expected = [ 'train', 'aeroplane', 'car', 'ferry' ];
-    assert.deepStrictEqual(traveller.getUniqueModesOfTransport(), expected);
-  });
+  // it('should be able to get a unique list of the modes of transport', function() {
+  //   const expected = [ 'train', 'aeroplane', 'car', 'ferry' ];
+  //   assert.deepStrictEqual(traveller.getUniqueModesOfTransport(), expected);
+  // });
 
 });
