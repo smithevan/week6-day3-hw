@@ -6,15 +6,14 @@ Traveller.prototype.getJourneyStartLocations = function() {
   const startLocations = this.journeys.map((journey) => {
     return journey.startLocation;
   });
-  return startLocations; 
-  // const filmTitles = this.films.map((film) => {
-  //   return film.title;
-  // });
-  // return filmTitles;
+  return startLocations;
 };
 
 Traveller.prototype.getJourneyEndLocations = function () {
-
+  const endLocations = this.journeys.map((journey) => {
+    return journey.endLocation;
+  });
+  return endLocations;
 };
 
 Traveller.prototype.getJourneysByTransport = function (transport) {
